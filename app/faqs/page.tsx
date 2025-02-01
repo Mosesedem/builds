@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
+import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
@@ -60,7 +61,7 @@ export default function FAQsPage() {
         className="relative h-[40vh] overflow-hidden"
       >
         <div className="absolute inset-0">
-          <img 
+        <Image
             src="https://cdn.iconscout.com/strapi/Usecase_2_d4184d6646.png" 
             alt="People collaborating"
             className="w-full h-full object-cover"

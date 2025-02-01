@@ -1,6 +1,7 @@
 // providers/page.tsx
 
 import { ProviderDirectory } from "@/components/provider-directory"
+import Image from "next/image"
 
 export default function ProvidersPage() {
   return (
@@ -18,8 +19,8 @@ export default function ProvidersPage() {
           <div className="hidden lg:block">
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500/20 rounded-xl blur-2xl" />
-              <img
-                src="https://cdn.iconscout.com/strapi/Usecase_2_d4184d6646.png"
+              <Image
+                              src="https://cdn.iconscout.com/strapi/Usecase_2_d4184d6646.png"
                 alt="Medical facility illustration"
                 width={600}
                 height={400}

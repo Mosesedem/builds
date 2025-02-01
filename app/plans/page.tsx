@@ -3,6 +3,7 @@ import { PlanCard } from "@/components/PlanCard"
 import { useRef, useState, useEffect } from "react"
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid"
 import { plans } from '@/lib/constants'
+import Image from "next/image"
 
 function HorizontalScrollSection({
   title,
@@ -106,8 +107,8 @@ export default function PlansPage() {
           <div className="hidden lg:block">
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500/20 rounded-xl blur-2xl" />
-              <img
-                src="https://v2.protonmedicare.com/api/html/rrrrr.png"
+              <Image
+                              src="https://v2.protonmedicare.com/api/html/rrrrr.png"
                 alt="Medical facility illustration"
                 className="relative rounded-xl h-300 w-500"
               />

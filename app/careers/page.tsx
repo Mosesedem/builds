@@ -116,7 +116,7 @@ const CareersPageContent = () => {
           Join Our Team
         </motion.h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          We're looking for passionate individuals to help us build the future of healthcare technology.
+          We are looking for passionate individuals to help us build the future of healthcare technology.
         </p>
       </div>
 
@@ -197,7 +197,7 @@ const CareersPageContent = () => {
       >
         <Card className="bg-primary/5">
           <CardContent className="py-8">
-            <h2 className="text-2xl font-semibold mb-4">Don't see a position that fits?</h2>
+            <h2 className="text-2xl font-semibold mb-4">The position you seek is missing?</h2>
             <p className="text-lg text-muted-foreground mb-6">
               Are you confident you can deliver value to us? Send us an email with your CV to{" "}
               <a 

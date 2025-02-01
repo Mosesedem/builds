@@ -12,6 +12,7 @@ import { Check, X, Search, Users, ChevronRight } from 'lucide-react'
 import { ProvidersModal } from "@/components/ProvidersModal"
 import { motion } from "framer-motion"
 import { plans } from '@/lib/constants'
+import Image from 'next/image'
 
 // Helper function to transform features and additional benefits into a features object
 const transformPlanFeatures = (features: string[], additionalBenefits: string[]) => {
@@ -62,7 +63,7 @@ export default function ComparePlansPage() {
           <div className="hidden lg:block">
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500/20 rounded-xl blur-2xl" />
-              <img
+              <Image
                 src="https://protonmedicare.com/assets/images/great.png"
                 alt="Medical facility illustration"
                 className="relative rounded-xl"

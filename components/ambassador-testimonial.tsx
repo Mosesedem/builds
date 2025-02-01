@@ -39,8 +39,7 @@ export function Testimonials() {
                 </div>
               </CardHeader>
               <CardContent>
-                <blockquote className="text-lg italic">"{testimonial.quote}"</blockquote>
-              </CardContent>
+              <blockquote className="text-lg italic">&ldquo;{testimonial.quote}&rdquo;</blockquote>              </CardContent>
             </Card>
           ))}
         </div>

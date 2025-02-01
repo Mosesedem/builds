@@ -47,7 +47,7 @@ export default function SupportPage() {
             <CardDescription>Send us your inquiries</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">We'll respond within 24 hours</p>
+            <p className="mb-4">We respond within 24 hours</p>
             <Button asChild className="w-full">
               <Link href="/contact">Contact Us</Link>
             </Button>

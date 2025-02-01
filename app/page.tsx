@@ -176,7 +176,7 @@ className="absolute inset-0 bg-[linear-gradient(109.6deg,rgba(102,175,163,0.6)_1
                 Medicare Simplified, Coverage Personalized
               </h2>
               <p className="text-lg font-medium text-gray-700 leading-relaxed">
-                At Proton Medicare, we're reimagining healthcare navigation. We transform complex insurance landscapes into clear, personalized paths that empower your health journey.
+                At Proton Medicare, we are reimagining healthcare navigation. We transform complex insurance landscapes into clear, personalized paths that empower your health journey.
               </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
@@ -210,7 +210,7 @@ className="absolute inset-0 bg-[linear-gradient(109.6deg,rgba(102,175,163,0.6)_1
             viewport={{ once: true }}
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
-              <img
+              <Image
                 src="https://v2.protonmedicare.com/api/html/rrrrr.png"
                 alt="Proton Medicare Healthcare Navigation"
                 className="w-full h-[250px] sm:h-[300px] lg:h-[400px] object-cover group-hover:scale-105 transition-transform duration-300"

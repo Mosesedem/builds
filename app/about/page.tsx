@@ -119,7 +119,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6">A Decade of Excellence</h2>
               <p className="text-lg text-muted-foreground mb-6">
                 Founded in 2010, Proton Medicare began with a simple idea: make Medicare
-                accessible and understandable for everyone. Over the years, we've grown
+                accessible and understandable for everyone. Over the years, we have grown
                 from a small startup to a trusted healthcare partner for thousands of
                 seniors across the country.
               </p>

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface PreviewStepProps {
     formData: {
       firstName: string;
@@ -27,7 +29,8 @@ interface PreviewStepProps {
         {previewImage && (
           <div>
             <p><strong>Headshot:</strong></p>
-            <img src={previewImage} alt="Headshot" className="w-32 h-32 object-cover rounded-full border" />
+            <Image
+            src={previewImage} alt="Headshot" className="w-32 h-32 object-cover rounded-full border" />
           </div>
         )}
       </>

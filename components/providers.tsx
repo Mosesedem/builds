@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Search, MapPin, Phone, Clock, Mail, Building2 } from 'lucide-react'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-
+import Image from 'next/image'
 // Provider type definition
 interface Provider {
   id: number
@@ -118,8 +118,8 @@ export function Providers({ planType }: ProvidersProps) {
           {selectedProvider && (
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <img
-                  src={selectedProvider.image || "https://static.flashscore.com/res/image/data/ba3RUOf5-6FckE7BN.png"}
+              <Image
+                 src={selectedProvider.image || "https://static.flashscore.com/res/image/data/ba3RUOf5-6FckE7BN.png"}
                   alt={selectedProvider.name}
                   className="w-full rounded-lg"
                   width={400}

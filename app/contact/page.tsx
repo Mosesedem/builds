@@ -48,10 +48,10 @@ export default function ContactPage() {
         <div className="flex flex-col items-center mb-8 sm:mb-12 space-y-4">
           <Sparkles className="h-8 w-8 sm:h-12 sm:w-12 text-teal-600 animate-pulse " />
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-teal-600/60">
-            Let's Connect
+            Let us Connect
           </h1>
           <p className="text-center text-muted-foreground max-w-2xl text-sm sm:text-base px-4">
-            Choose your preferred way to reach us. We're available across multiple platforms
+            Choose your preferred way to reach us. We are available across multiple platforms
             and ready to assist you 24/7 with our AI-powered response system.
           </p>
         </div>
